@@ -32,7 +32,7 @@ export const CardWrapper = ({
         </CardFooter>
       )}
       <CardFooter>
-        <LinkedButton label={backButtonLabel} href={backButtonHref} />
+        <LinkedButton variant="ghost" label={backButtonLabel} href={backButtonHref} />
       </CardFooter>
     </Card>
   );

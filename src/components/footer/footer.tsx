@@ -15,29 +15,29 @@ const Footer = () => {
         </div>
       </div>
       <div className='flex w-full'>
-        <div className='w-1/4 flex flex-col gap-3'>
-          <p className='font-bold'>Site Map</p>
+        <div className='w-1/2 md:w-1/4 flex flex-col gap-2'>
+          <p className='font-bold text-indigo-600'>Site Map</p>
           <span>Home Page</span>
           <span>Pricing</span>
           <span>Testinmonials</span>
           <span>Features</span>
         </div>
-        <div className='w-1/4 flex flex-col gap-2'>
-          <p className='font-bold'>Resoureces</p>
+        <div className='w-1/2 md:w-1/4 flex flex-col gap-2'>
+          <p className='font-bold text-indigo-600'>Resoureces</p>
           <span>Home Page</span>
           <span>Pricing</span>
           <span>Testinmonials</span>
           <span>Features</span>
         </div>
-        <div className='w-1/4 flex flex-col gap-2'>
-          <p className='font-bold'>Company</p>
+        <div className='w-1/4 md:flex flex-col gap-2 hidden'>
+          <p className='font-bold text-indigo-600'>Company</p>
           <span>Home Page</span>
           <span>Pricing</span>
           <span>Testinmonials</span>
           <span>Features</span>
         </div>
-        <div className='w-1/4 flex flex-col gap-2'>
-          <p className='font-bold'>Portfollio</p>
+        <div className='w-1/4 md:flex flex-col gap-2 hidden'>
+          <p className='font-bold text-indigo-600'>Portfollio</p>
           <span>Home Page</span>
           <span>Pricing</span>
           <span>Testinmonials</span>

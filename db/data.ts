@@ -1,7 +1,5 @@
 import { Comment } from "@/types/types";
 
-
-
 export const advantage = [
   {
     id: 1,
@@ -54,5 +52,20 @@ export const comments: Comment[] = [
     timestamp: "1 week ago",
     commentText:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum laudantium distinctio, odit magnam dicta nesciunt dignissimos corrupti tempora soluta nisi totam quaerat harum laborum quae nostrum omnis atque necessitatibus perspiciatis?",
+  },
+];
+
+export const NavbarLink = [
+  {
+    title: "Community",
+    href: "",
+  },
+  {
+    title: "Pricing",
+    href: "",
+  },
+  {
+    title: "Features",
+    href: "",
   },
 ];

@@ -3,7 +3,7 @@ import HeaderBanner from "./header-banner";
 
 const Header = () => {
   return (
-    <header>
+    <header className="h-[100vh]">
       <Navbar />
       <HeaderBanner />
     </header>

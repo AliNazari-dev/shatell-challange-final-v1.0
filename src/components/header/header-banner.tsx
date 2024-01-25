@@ -1,12 +1,10 @@
 import Image from "next/image";
 import { Button } from "../ui/button";
 
-
-
 const HeaderBanner = () => {
   return (
     <div className='flex items-center justify-center gap-10 mt-10 h-[700px]'>
-      <div className='flex flex-col gap-4'>
+      <div className='flex flex-col gap-4 '>
         <span className='star flex flex-row '>
           <Image src={"/star.svg"} alt='' width={20} height={20} />
           <Image src={"/star.svg"} alt='' width={20} height={20} />
@@ -43,8 +41,15 @@ const HeaderBanner = () => {
           </div>
         </div>
       </div>
-      <div className='hidden md:flex'>
-        <Image alt='banner' src={"/hero-Illustration.png"} width={600} height={600} objectFit='' />
+      <div className='hidden md:flex animatedImageContainer'>
+        <Image
+          className='animatedImage'
+          alt='banner'
+          src={"/hero-Illustration.png"}
+          width={500}
+          height={500}
+          objectFit=''
+        />
       </div>
     </div>
   );

@@ -9,11 +9,18 @@ interface LinkedButtonProps {
   label: string;
   className?: string;
   variant?: "link" | "default" | "destructive" | "outline" | "secondary" | "ghost";
+  size?: "default" | "sm" | "lg" | "icon";
 }
 
-export const LinkedButton = ({ href, label, variant = "link", className }: LinkedButtonProps) => {
+export const LinkedButton = ({
+  href,
+  label,
+  variant,
+  className,
+  size,
+}: LinkedButtonProps) => {
   return (
-    <Button variant={variant} className={`font-normal w-full ${className}`} size='sm' asChild>
+    <Button variant={variant} className={`font-normal w-full ${className}`} size={size} asChild>
       <Link href={href}>{label}</Link>
     </Button>
   );
