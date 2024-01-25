@@ -7,5 +7,4 @@ test("renders home component with a button", () => {
 
   // Check if the button is in the document
   expect(buttonElement).toBeInTheDocument();
-
 });

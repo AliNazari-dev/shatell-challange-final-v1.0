@@ -2,9 +2,5 @@ import Image from "next/image";
 import { Button } from "../components/ui/button";
 
 export default function Home() {
-  return (
-    <main>
-      <Button variant={"destructive"}>click on me</Button>
-    </main>
-  );
+  return <main></main>;
 }
