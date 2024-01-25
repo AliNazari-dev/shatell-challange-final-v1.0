@@ -1,5 +1,7 @@
 import { Comment } from "@/types/types";
 
+
+
 export const advantage = [
   {
     id: 1,

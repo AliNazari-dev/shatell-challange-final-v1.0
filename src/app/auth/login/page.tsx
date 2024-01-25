@@ -1,6 +1,6 @@
 "use client";
 
-import { LoginForm } from "@/components/auth/login-form";
+import { LoginForm } from "@/src/components/auth/login-form";
 import Image from "next/image";
 import React, { useState } from "react";
 
@@ -29,7 +29,7 @@ const Login: React.FC = () => {
 
   return (
     <div className='bg-white flex rounded-md '>
-      <div className="">
+      <div>
         <LoginForm />
       </div>
       <div className='bg-violet-700 lg:flex flex-col max-w-[400px] items-center gap-10 hidden w-full'>

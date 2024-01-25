@@ -1,6 +1,9 @@
-import Image from "next/image";
-import { Button } from "../components/ui/button";
+import HomePage from "../components/home/home";
 
 export default function Home() {
-  return <main></main>;
+  return (
+    <main className='flex h-fit flex-col'>
+      <HomePage />
+    </main>
+  );
 }
