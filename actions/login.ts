@@ -10,5 +10,5 @@ export const login = async (values: z.infer<typeof LoginSchema>) => {
     return { error: "Invalid Fields" };
   }
 
-  return { success: "Email sent" };
+  return { success: "Account created" };
 };
