@@ -1,4 +1,8 @@
 # shatell challange
+# if you can't install packages for any reason like sanction of iran you can see project live demo in below link
+https://shatell-challange-final-v1-0.vercel.app/
+
+
 
 I developed this project with multiple technologies and tried to treat it like a real project:
 
